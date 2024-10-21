@@ -13,3 +13,21 @@ def test_addition():
 def test_subtraction():
     calc = Calculator()
     assert calc.evaluate("5 - 2") == 3
+
+def test_multiplication():
+    calc = Calculator()
+    assert calc.evaluate("3 * 4") == 12
+
+def test_division():
+    calc = Calculator()
+    assert calc.evaluate("10 / 2") == 5
+
+def test_division_by_zero():
+    calc = Calculator()
+    try:
+        calc.evaluate("10 / 0")
+    except ZeroDivisionError as e:
+        assert str(e) == "Division by zero is not allowed."  # Optionally check the message
+    else:
+        assert False, "Expected ZeroDivisionError not raised"
+
