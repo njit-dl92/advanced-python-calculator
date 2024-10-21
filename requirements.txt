@@ -1,4 +1,4 @@
--e git+ssh://git@github.com/njit-dl92/advanced-python-calculator.git@c467ee021a3ea5189db3b0231a027fb2f557c3ae#egg=advanced_python_calculator
+git+https://github.com/njit-dl92/advanced-python-calculator.git@c467ee021a3ea5189db3b0231a027fb2f557c3ae#egg=advanced_python_calculator
 coverage==7.6.4
 exceptiongroup==1.2.2
 iniconfig==2.0.0
