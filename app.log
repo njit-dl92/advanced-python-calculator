@@ -1,0 +1,6 @@
+INFO:root:Adding 1.0 + 2.0 = 3.0
+INFO:root:Dividing 3.0 by 1.0 = 3.0
+INFO:root:Subtracting 1.0 from 4.0 = 3.0
+INFO:root:Dividing 4.0 by 2.0 = 2.0
+INFO:root:Adding 6.0 + 8.0 = 14.0
+INFO:root:Multiplying 6.0 by 5.0 = 30.0

@@ -1,4 +1,6 @@
-# calculator/plugins/addition.py
+from calculator.logger import logger  # Corrected import statement
 
 def add(a, b):
-    return a + b
+    result = a + b
+    logger.info(f"Adding {a} + {b} = {result}")  # Log the addition operation
+    return result
