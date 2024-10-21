@@ -1,5 +1,6 @@
-from .addition import add
-from .subtraction import subtract
+from .plugins.addition import add
+from .plugins.subtraction import subtract
+
 
 def load_plugins():
     return {
