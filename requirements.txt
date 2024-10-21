@@ -1,3 +1,16 @@
-pandas
-pytest
-python-dotenv
+-e git+ssh://git@github.com/njit-dl92/advanced-python-calculator.git@c467ee021a3ea5189db3b0231a027fb2f557c3ae#egg=advanced_python_calculator
+coverage==7.6.4
+exceptiongroup==1.2.2
+iniconfig==2.0.0
+numpy==2.1.2
+packaging==24.1
+pandas==2.2.3
+pluggy==1.5.0
+pytest==8.3.3
+pytest-cov==5.0.0
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+pytz==2024.2
+six==1.16.0
+tomli==2.0.2
+tzdata==2024.2
