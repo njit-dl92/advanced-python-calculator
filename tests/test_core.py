@@ -29,5 +29,5 @@ def test_division_by_zero():
     except ZeroDivisionError as e:
         assert str(e) == "Division by zero is not allowed."  # Optionally check the message
     else:
-        assert False, "Expected ZeroDivisionError not raised"
+        assert False, "Expected ZeroDivisionError not raised" 
 
