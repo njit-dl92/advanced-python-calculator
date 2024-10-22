@@ -9,4 +9,4 @@ class HistoryManager:
         df.to_csv(self.file, mode='a', header=False, index=False)
 
     def load(self):
-        return pd.read_csv(self.file)
+        return pd.read_csv(self.file) 
