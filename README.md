@@ -1,7 +1,5 @@
 # Advanced Python Calculator
 
-Following is the directory structure for my project:
-
 Below are the project implementation details:
 
 Used a .github/workflows/python-app.yml for continuous integration.
