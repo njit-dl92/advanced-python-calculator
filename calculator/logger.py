@@ -10,3 +10,4 @@ def setup_logger():
     return logging.getLogger()
 
 logger = setup_logger()
+
