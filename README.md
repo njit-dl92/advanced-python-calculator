@@ -2,35 +2,7 @@
 
 Following is the directory structure for my project:
 
-├── calculator
-│   ├── __init__.py
-│   ├── core.py
-│   ├── repl.py
-│   ├── history_manager.py
-│   ├── logger.py
-│   ├── plugins
-│   │   ├── __init__.py
-│   │   ├── addition.py
-│   │   ├── subtraction.py
-│   ├── patterns
-│   │   ├── __init__.py
-│   │   ├── facade.py
-│   │   ├── command.py
-│   │   ├── factory.py
-│   ├── exceptions.py
-├── tests
-│   ├── test_core.py
-│   ├── test_repl.py
-│   ├── test_plugins.py
-├── .env
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── setup.py
-└── .github
-    └── workflows
-        └── python-app.yml
-
+Below are the project implementation details:
 
 Used a .github/workflows/python-app.yml for continuous integration.
 
@@ -54,6 +26,6 @@ Command Pattern: Organize REPL commands.
 Factory Pattern: Use factories to create calculator instances or plugin loaders.
 Singleton Pattern: Ensure logging configuration is instantiated only once.
 
-Wrote tests in the tests folder for each functionality, covering at least 90% of the code.
+Wrote tests in the tests folder for each functionality.
 Used pytest-cov to measure test coverage.
 
