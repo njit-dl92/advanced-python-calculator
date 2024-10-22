@@ -1,8 +1,8 @@
 # Advanced Python Calculator
 
-Below are the project implementation details:
+DEMO Link : https://youtu.be/byFWwvx2IiQ 
 
-Used a .github/workflows/python-app.yml for continuous integration.
+Below are the project implementation details:
 
 Created a .env file to configure environment variables dynamically, especially for logging levels or file paths.
 
@@ -14,16 +14,27 @@ Implemented core functionality in core.py where arithmetic operations are handle
 Implemented a dynamic plugin system in the plugins folder. Each plugin should be loaded dynamically at runtime and should provide additional operations.
 
 Used Pandas to manage the history of all calculations, enabling users to save/load history from a CSV file.
+
 Implemented methods in history_manager.py for saving/loading history.
 
 Implemented logging functionality in logger.py with different logging levels (INFO, ERROR, etc.) and used environment variables for dynamic configuration.
 
 Used below design patterns:
+
 Facade Pattern: Simplify the interface to Pandas in history_manager.py.
+
 Command Pattern: Organize REPL commands.
+
 Factory Pattern: Use factories to create calculator instances or plugin loaders.
+
 Singleton Pattern: Ensure logging configuration is instantiated only once.
 
 Wrote tests in the tests folder for each functionality.
+
 Used pytest-cov to measure test coverage.
+
+Used a .github/workflows/python-app.yml for continuous integration.
+Sucessful execution of Actions can be obsered in : [https://github.com/njit-dl92/advanced-python-calculator ](https://github.com/njit-dl92/advanced-python-calculator/actions) 
+
+Git link for complete development: https://github.com/njit-dl92/advanced-python-calculator 
 
