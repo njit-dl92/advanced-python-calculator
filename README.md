@@ -1,4 +1,4 @@
-# advanced-python-calculator# Advanced Python Calculator
+# Advanced Python Calculator
 
 Following is the directory structure for my project:
 
