@@ -10,3 +10,8 @@ INFO:root:Subtracting 3.0 from 5.0 = 2.0
 INFO:root:Multiplying 6.0 by 4.0 = 24.0
 INFO:root:Dividing 5.0 by 2.0 = 2.5
 INFO:root:Adding 5.0 + 5.0 = 10.0
+INFO:root:Adding 9.0 + 9.0 = 18.0
+INFO:root:Subtracting 22.0 from 11.0 = -11.0
+ERROR:root:Attempted to divide by zero.
+ERROR:root:Division error: Cannot divide by zero.
+INFO:root:Multiplying 7.0 by 7.0 = 49.0
